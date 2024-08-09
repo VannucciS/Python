@@ -1,0 +1,10 @@
+Create a new python enviroment
+$>> python -m venv myenv
+Activate the new enviroment
+$>> myenv\Scripts\Activate
+Install the scrapy library
+$>> pip install scrapy
+Test the enviroment
+print(scrapy.__version__)
+Start a new project
+scrapy startproject nameOfTheProject
